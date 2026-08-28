@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "BB Dark Store - Koramangala Hub",
+    "code": "BB-KRM-01",
+    "address": "80 Feet Rd, 4th Block, Koramangala, Bengaluru, Karnataka 560034",
+    "latitude": 12.9352,
+    "longitude": 77.6245,
+    "city": "Bengaluru",
+    "capacity_orders": 350
+  },
+  {
+    "id": 2,
+    "name": "BB Express Hub - Indiranagar",
+    "code": "BB-IND-02",
+    "address": "100 Feet Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560038",
+    "latitude": 12.9784,
+    "longitude": 77.6408,
+    "city": "Bengaluru",
+    "capacity_orders": 280
+  },
+  {
+    "id": 3,
+    "name": "BB Dark Store - HSR Layout Sector 1",
+    "code": "BB-HSR-03",
+    "address": "27th Main Rd, Sector 1, HSR Layout, Bengaluru, Karnataka 560102",
+    "latitude": 12.9121,
+    "longitude": 77.6446,
+    "city": "Bengaluru",
+    "capacity_orders": 300
+  },
+  {
+    "id": 4,
+    "name": "BB Mega Warehouse - Whitefield",
+    "code": "BB-WTF-04",
+    "address": "ITPB Main Rd, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066",
+    "latitude": 12.9698,
+    "longitude": 77.7499,
+    "city": "Bengaluru",
+    "capacity_orders": 500
+  }
+]
