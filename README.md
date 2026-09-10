@@ -1,4 +1,4 @@
-# 🛒 BigBasket BB-Express Route Optimization Engine
+# 🛒 Route Optimization Engine
 
 A high-performance Delivery Route Optimization System engineered for large-scale grocery logistics (inspired by BigBasket / BB Daily operations).
 
@@ -56,41 +56,6 @@ BigBasket/
 └── README.md
 ```
 
----
-
-## ⚡ Quick Start
-
-### 1. Setup & Installation
-
-```bash
-# Clone/Open directory
-cd BigBasket
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### 2. Run the Interactive Phase 1 Demonstration
-
-```bash
-python run_phase1_demo.py
-```
-
-### 3. Run Automated Test Suite
-
-```bash
-python -m pytest -v
-```
-
-### 4. Start the FastAPI Development Server
-
-```bash
-uvicorn backend.main:app --reload --port 8000
-```
-- Interactive API Documentation (Swagger UI): `http://127.0.0.1:8000/docs`
-- Health Check: `http://127.0.0.1:8000/ping`
-
----
 
 ## 📊 Sample Optimization Output (Phase 1 Demo)
 
@@ -107,10 +72,3 @@ uvicorn backend.main:app --reload --port 8000
    Estimated CO2 Emissions  : 2.168 kg
 ```
 
----
-
-## 🎯 BigBasket Interview Talking Points
-
-- **Problem Statement**: E-commerce grocery deliveries require strict SLA adherence (e.g. 15-30 min express windows) and cost-per-delivery minimization.
-- **Mathematical Approach**: Modeled the delivery dispatch as an asymmetric Traveling Salesperson Problem (TSP) resolved via a 2-stage pipeline (Nearest Neighbor greedy seed + 2-Opt local search refinement).
-- **Quantifiable Outcome**: Reduces total driver travel distance by **~25% to 30%**, directly decreasing fuel expenditures and carbon emissions while improving on-time delivery percentages.
